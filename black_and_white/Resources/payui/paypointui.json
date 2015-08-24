@@ -1,0 +1,172 @@
+{
+	"paypoints":[
+		{ 
+			"id": 1,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_1.png", "specialname": "pay_tip_info_mf_1.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_3.png", "specialname": "pay_tip_goods_3.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_1.png", "specialname": "pay_title_1.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_7.png", "specialname": "pay_goods_7.png" }
+			]
+		},
+		{ 
+			"id": 2,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_mf_1.png", "specialname": "pay_tip_info_mf_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_1.png", "specialname": "pay_goods_1.png" }
+			]
+		},
+		{ 
+			"id": 3,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_2.png", "specialname": "pay_tip_goods_2.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_mf_1.png", "specialname": "pay_tip_info_mf_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_3.png", "specialname": "pay_title_3.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_6.png", "specialname": "pay_goods_6.png" }
+			]
+		},
+		{ 
+			"id": 4,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_mf_2.png", "specialname": "pay_tip_info_mf_2.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_4.png", "specialname": "pay_goods_2.png" }
+			]
+		},
+		{ 
+			"id": 5,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_mf_2.png", "specialname": "pay_tip_info_mf_2.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_5.png", "specialname": "pay_goods_3.png" }
+			]
+		},
+		{ 
+			"id": 6,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_mf_2.png", "specialname": "pay_tip_info_mf_2.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_4.png", "specialname": "pay_goods_4.png" }
+			]
+		},
+		{ 
+			"id": 7,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_mf_2.png", "specialname": "pay_tip_info_mf_2.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_5.png", "specialname": "pay_goods_5.png" }
+			]
+		},
+		{ 
+			"id": 8,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_1.png", "specialname": "pay_tip_info_lt_1.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_3.png", "specialname": "pay_tip_goods_3.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_1.png", "specialname": "pay_title_1.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_7.png", "specialname": "pay_goods_7.png" }
+			]
+		},
+		{ 
+			"id": 9,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_1.png", "specialname": "pay_tip_info_lt_1.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_1.png", "specialname": "pay_goods_1.png" }
+			]
+		},
+		{ 
+			"id": 10,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_2.png", "specialname": "pay_tip_info_lt_1.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_2.png", "specialname": "pay_tip_goods_2.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_3.png", "specialname": "pay_title_3.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_6.png", "specialname": "pay_goods_6.png" }
+			]
+		},
+		{ 
+			"id": 11,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_2.png", "specialname": "pay_tip_info_lt_2.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_2.png", "specialname": "pay_goods_2.png" }
+			]
+		},
+		{ 
+			"id": 12,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_up.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_3.png", "specialname": "pay_goods_3.png" }
+			]
+		},
+		{ 
+			"id": 13,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_2.png", "specialname": "pay_tip_info_lt_2.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_4.png", "specialname": "pay_goods_4.png" }
+			]
+		},
+		{ 
+			"id": 14,
+			"elements": [
+				{ "type": "image", "x": 0, "y": 0, "width": 480, "height": 800, "defaultname": "pay_bg.png", "specialname": "pay_bg.png" },
+				{ "type": "confirmbutton", "x": 148, "y": 593, "width": 185, "height": 40, "defaultname": "pay_confirm_up.png", "specialname": "pay_confirm_down.png" },
+				{ "type": "cancelbutton", "x": 440, "y": 0, "width": 40, "height": 76, "defaultname": "pay_cancel_up.png", "specialname": "pay_cancel_down.png" },
+				{ "type": "image", "x": 0, "y": 710, "width": 480, "height": 90, "defaultname": "pay_tip_info_lt_2.png", "specialname": "pay_tip_info_lt_2.png" },
+				{ "type": "image", "x": 0, "y": 187, "width": 480, "height": 295, "defaultname": "pay_tip_goods_1.png", "specialname": "pay_tip_goods_1.png" },
+				{ "type": "image", "x": 113, "y": 85, "width": 255, "height": 62, "defaultname": "pay_title_2.png", "specialname": "pay_title_2.png" },
+				{ "type": "image", "x": 111, "y": 497, "width": 259, "height": 40, "defaultname": "pay_goods_5.png", "specialname": "pay_goods_5.png" }
+			]
+		}
+	]
+}

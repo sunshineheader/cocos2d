@@ -1,0 +1,20 @@
+{
+    "uipoints": [
+        { "uipoint": 1, "type": "DEBUG_PAY", "paypoint": 3 },
+        { "uipoint": 2, "type": "DEBUG_PAY", "paypoint": 2 },
+        { "uipoint": 3, "type": "DEBUG_PAY", "paypoint": 1 },
+        { "uipoint": 4, "type": "DEBUG_PAY", "paypoint": 3 },
+        { "uipoint": 5, "type": "DEBUG_PAY", "paypoint": 4 },
+        { "uipoint": 6, "type": "DEBUG_PAY", "paypoint": 5 },
+        { "uipoint": 7, "type": "DEBUG_PAY", "paypoint": 6 },
+        { "uipoint": 8, "type": "DEBUG_PAY", "paypoint": 7 },
+        { "uipoint": 9, "type": "DEBUG_PAY", "paypoint": 3 },
+        { "uipoint": 10, "type": "DEBUG_PAY", "paypoint": 2 },
+        { "uipoint": 11, "type": "DEBUG_PAY", "paypoint": 1 },
+        { "uipoint": 12, "type": "DEBUG_PAY", "paypoint": 3 },
+        { "uipoint": 13, "type": "DEBUG_PAY", "paypoint": 4 },
+        { "uipoint": 14, "type": "DEBUG_PAY", "paypoint": 5 },
+        { "uipoint": 15, "type": "DEBUG_PAY", "paypoint": 6 },
+        { "uipoint": 16, "type": "DEBUG_PAY", "paypoint": 7 }
+    ]
+}

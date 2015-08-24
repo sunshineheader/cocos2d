@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    name="Parkour"
+    basedir="."
+    default="build-one-project" >
+
+    <loadproperties srcFile="local.properties" />
+
+    <property file="ant.properties" />
+
+    <property
+        name="aapt.ignore.assets"
+        value="!.svn:!.git:\x3Cdir\x3E_*:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~:crunch" />
+
+    <property
+        name="java.encoding"
+        value="UTF-8" />
+
+    <loadproperties srcFile="project.properties" />
+
+    <fail
+        message="sdk.dir is missing. Make sure to generate local.properties using &apos;android update project&apos;"
+        unless="sdk.dir" />
+
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+
+    <property
+        name="gb.manifest.file"
+        value="${basedir}/${manifest.file}" />
+
+    <target
+        name="-pre-set-out-file-name"
+        depends="-pre-release-init" >
+
+        <property
+            name="out.final.file"
+            value="${out.absolute.dir}/${ant.project.name}-${gb.versionCode}-${gb.versionName}-release.apk" >
+        </property>
+
+        <property
+            name="out.unaligned.file"
+            location="${out.absolute.dir}/${ant.project.name}-${gb.versionCode}-${gb.versionName}-release-unaligned.apk" />
+
+        <property
+            name="out.packaged.file"
+            location="${out.absolute.dir}/${ant.project.name}-${gb.versionCode}-${gb.versionName}-release-unsigned.apk" />
+
+        <echo message="${out.final.file}" />
+
+        <echo message="${out.unaligned.file}" />
+
+        <echo message="${out.packaged.file}" />
+    </target>
+
+    <target name="-pre-release-init" >
+
+        <echo message="${gb.manifest.file}" />
+
+        <xmlproperty
+            collapseAttributes="true"
+            file="${gb.manifest.file}" />
+
+        <sleep seconds="2" />
+
+        <property
+            name="gb.package"
+            value="${manifest.package}" />
+
+        <echo message="package ${gb.package}" />
+
+        <property
+            name="gb.versionCode"
+            value="${manifest.android:versionCode}" />
+
+        <echo message="versionCode ${gb.versionCode}" />
+
+        <property
+            name="gb.versionName"
+            value="${manifest.android:versionName}" />
+
+        <echo message="versionName ${gb.versionName}" />
+    </target>
+
+    <target name="clean" >
+
+        <delete dir="${out.dir}" />
+
+        <delete dir="${gen.absolute.dir}" />
+    </target>
+
+    <target
+        name="build-one-project"
+        depends="clean,-pre-set-out-file-name" >
+
+        <antcall target="release" />
+    </target>
+
+</project>

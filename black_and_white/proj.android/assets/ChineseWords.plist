@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+  <key>title</key>
+  <string>游戏结束</string>
+
+	<key>zuijia</key>
+	<string>最佳</string>
+    
+  <key>pai</key>
+  <string>排  </string>
+  
+  <key>ming</key>
+  <string>  名</string>
+  
+  <key>back</key>
+  <string>返回</string>
+  
+  <key>again</key>
+  <string>重来</string>
+    
+
+  <key>ni</key>
+  <string>您还有</string>
+
+   <key>ci</key>
+   <string>次机会!!!</string>
+
+    <key>ok</key>
+    <string>确定</string>
+
+    <key>cancel</key>
+    <string>取消</string>
+    
+    <key>mai</key>
+    <string>购买复活礼包?</string>
+
+
+    <key>start</key>
+    <string>开始</string>
+    <key>game_name</key>
+    <string>黑白世界</string>
+
+
+
+
+
+
+
+  </dict>
+
+</array>
+</plist>

@@ -1,0 +1,12 @@
+{
+    "event2pay": [
+        { "eventpoint": 1, "paypoint": 3, "state": true },
+        { "eventpoint": 2, "paypoint": 2, "state": true },
+        { "eventpoint": 3, "paypoint": 1, "state": true },
+        { "eventpoint": 4, "paypoint": 3, "state": true },
+        { "eventpoint": 5, "paypoint": 4, "state": false },
+        { "eventpoint": 6, "paypoint": 5, "state": false },
+        { "eventpoint": 7, "paypoint": 6, "state": false },
+        { "eventpoint": 8, "paypoint": 7, "state": false }
+    ]
+}
