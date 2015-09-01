@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+  
+  <key>mission_0</key>
+  <string>任务：跑完1盘</string>
+
+  <key>mission_1</key>
+  <string>任务：完成20次跳跃</string>
+
+  <key>mission_2</key>
+  <string>任务：完成20次俯身</string>
+
+  <key>mission_3</key>
+  <string>任务：收集1000个金币</string>
+
+  <key>mission_4</key>
+  <string>任务：收集2个增益道具</string>
+
+  <key>mission_5</key>
+  <string>任务：使用1次冲刺</string>
+
+  <key>mission_6</key>
+  <string>任务：躲避20个怪物</string>
+
+  <key>mission_7</key>
+  <string>任务：得分超过10000分</string>
+
+  <key>mission_8</key>
+  <string>任务：收集1个冲刺道具</string>
+
+  <key>mission_9</key>
+  <string>任务：收集2个磁铁道具</string>
+
+  <key>mission_10</key>
+  <string>任务：收集3个无敌道具</string>
+
+  <key>mission_11</key>
+  <string>任务：完成30次跳跃</string>
+
+  <key>mission_12</key>
+  <string>任务：完成30次俯身</string>
+
+  <key>mission_13</key>
+  <string>任务：收集2000个金币</string>
+
+  <key>mission_14</key>
+  <string>任务：累计消费2000金币</string>
+
+  <key>mission_15</key>
+  <string>任务：用磁铁吸到200个金币</string>
+
+  <key>mission_16</key>
+  <string>任务：激发2次冲刺</string>
+
+  <key>mission_17</key>
+  <string>任务：无敌状态跑200米</string>
+
+  <key>mission_18</key>
+  <string>任务：得分超过50000分</string>
+
+  <key>mission_19</key>
+  <string>任务：躲避30个怪物</string>
+
+  <key>mission_20</key>
+  <string>任务：累计消费3000金币</string>
+
+  <key>mission_21</key>
+  <string>任务：收集3个冲刺道具</string>
+
+  <key>mission_22</key>
+  <string>任务：收集6个磁铁道具</string>
+
+  <key>mission_23</key>
+  <string>任务：收集4个无敌道具</string>
+
+  <key>mission_24</key>
+  <string>任务：用磁铁吸到500个金币</string>
+
+  <key>mission_25</key>
+  <string>任务：冲刺状态跑500米</string>
+
+  <key>mission_26</key>
+  <string>任务：收集5000个金币</string>
+
+  <key>mission_27</key>
+  <string>任务：累计消费5000金币</string>
+
+  <key>mission_28</key>
+  <string>任务：得分超过100000分</string>
+
+</dict>
+
+</array>
+</plist>

@@ -1,0 +1,23 @@
+{
+    "event2pay": [
+        { "eventpoint": 1, "paypoint": 5, "state": true, "describe": "" },
+        { "eventpoint": 2, "paypoint": 3, "state": false, "describe": "" },
+        { "eventpoint": 3, "paypoint": 3, "state": true, "describe": "" },
+        { "eventpoint": 4, "paypoint": 2, "state": true, "describe": "" },
+        { "eventpoint": 5, "paypoint": 7, "state": false, "describe": "" },
+        { "eventpoint": 6, "paypoint": 6, "state": false, "describe": "" },
+        { "eventpoint": 7, "paypoint": 5, "state": false, "describe": "" },
+        { "eventpoint": 8, "paypoint": 4, "state": false, "describe": "" },
+        { "eventpoint": 9, "paypoint": 8, "state": true, "describe": "" },
+        { "eventpoint": 10, "paypoint": 1, "state": true, "describe": "" },
+        { "eventpoint": 11, "paypoint": 3, "state": true, "describe": "" },
+        { "eventpoint": 12, "paypoint": 9, "state": true, "describe": "" },
+        { "eventpoint": 13, "paypoint": 10, "state": true, "describe": "" },
+        { "eventpoint": 14, "paypoint": 11, "state": true, "describe": "" },
+        { "eventpoint": 15, "paypoint": 6, "state": true, "describe": "" },
+        { "eventpoint": 16, "paypoint": 5, "state": true, "describe": "" },
+        { "eventpoint": 17, "paypoint": 1, "state": true, "describe": "" },
+        { "eventpoint": 18, "paypoint": 3, "state": true, "describe": "" }
+    ],
+     "version": 1
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="stair" tilewidth="32" tileheight="32">
+  <image source="stair.png" width="352" height="256"/>
+ </tileset>
+ <layer name="bg" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztxycSgDAYBeHMUCRFUmQCkiIpknL/E2UvEPncvzOfWOcsy0qVIUeBUvQVajRoRd+hx4BR9B4BE2bRL1ixYRf9gRMXbtE/ePHhF30EdxUZmQ==
+  </data>
+ </layer>
+</map>

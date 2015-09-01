@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="3">
+ <tileset firstgid="1" name="stair" tilewidth="32" tileheight="32">
+  <image source="stair.png" width="352" height="256"/>
+ </tileset>
+ <layer name="stair" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzNzbcKAlEQheE1gmCsjIXZQl1DYbYwW2it7/8k/gMK2yyzulN44INzbjHXccKnjobSw6aPgdK/ScrjkxnmSg/7xw57pf9y3/vPDXelB73v9/7A8739epD7mn9IBFHEEEcCScMtSSODLHLIo2C4JUWUUEYFVdQMt6SJFtrooIue4ZYM4WKEMSaYGm7JAkussMYGW8MtOeCIE8644Gq4X9KTIZs=
+  </data>
+ </layer>
+ <objectgroup name="monster">
+  <properties>
+   <property name="id" value="2"/>
+  </properties>
+  <object id="2" x="245" y="224" width="27" height="31">
+   <properties>
+    <property name="id" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,26 @@
+{
+    "uipoints": [
+        { "uipoint": 1, "type": "poxiao", "paypoint": 1 },
+        { "uipoint": 2, "type": "poxiao", "paypoint": 2 },
+        { "uipoint": 3, "type": "poxiao", "paypoint": 3 },
+        { "uipoint": 4, "type": "poxiao", "paypoint": 4 },
+        { "uipoint": 5, "type": "poxiao", "paypoint": 5 },
+        { "uipoint": 6, "type": "poxiao", "paypoint": 6 },
+        { "uipoint": 7, "type": "poxiao", "paypoint": 7 },
+        { "uipoint": 8, "type": "free", "paypoint": 8 },
+        { "uipoint": 9, "type": "free", "paypoint": 9 },
+        { "uipoint": 10, "type": "free", "paypoint": 10 },
+        { "uipoint": 11, "type": "free", "paypoint": 11 },
+        { "uipoint": 12, "type": "letu", "paypoint": 1 },
+        { "uipoint": 13, "type": "letu", "paypoint": 2 },
+        { "uipoint": 14, "type": "letu", "paypoint": 3 },
+        { "uipoint": 15, "type": "letu", "paypoint": 4 },
+        { "uipoint": 16, "type": "letu", "paypoint": 5 },
+        { "uipoint": 17, "type": "letu", "paypoint": 6 },
+        { "uipoint": 18, "type": "letu", "paypoint": 7 },
+        { "uipoint": 19, "type": "free", "paypoint": 8 },
+        { "uipoint": 20, "type": "free", "paypoint": 9 },
+        { "uipoint": 21, "type": "free", "paypoint": 10 },
+        { "uipoint": 22, "type": "free", "paypoint": 11 }
+    ]
+}
