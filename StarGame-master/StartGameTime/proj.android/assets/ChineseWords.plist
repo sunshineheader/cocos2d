@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+  <key>title</key>
+  <string>消灭星星</string>
+
+	<key>guanqia</key>
+	<string>关卡</string>
+    
+  <key>mubiao</key>
+  <string>目标</string>
+  
+  <key>fen</key>
+  <string>分</string>
+  
+  <key>highestScore</key>
+  <string>最高分</string>
+  
+  <key>lianji</key>
+  <string>连击增加</string>
+  
+  <key>ge</key>
+  <string>个</string>
+  
+  <key>jiangli</key>
+  <string>奖励</string>
+
+   <key>shengyu</key>
+  <string>剩</string>
+
+   <key>miao</key>
+  <string>秒</string>
+
+  <key>di</key>
+  <string>第</string>
+
+  <key>mu</key>
+  <string>幕</string>
+
+  <key>gameover</key>
+  <string>游戏结束</string>
+
+<key>zhadan</key>
+<string>炸弹:消除3X3的方块</string>
+
+<key>shijian</key>
+<string>时间增加10秒</string>
+
+<key>signin</key>
+<string>签到奖励</string>
+
+<key>day</key>
+<string>日</string>
+
+<key>upgrade</key>
+<string>升级</string>
+
+<key>upgradeprize</key>
+<string>升级奖励</string>
+
+<key>addscoreper</key>
+<string>额外收集愿望</string>
+
+<key>addscorenum</key>
+<string>额外收集愿望</string>
+
+<key>gold</key>
+<string>金币</string>
+
+<key>about</key>
+<string>关于</string>
+
+<key>userinfo</key>
+<string>玩家信息</string>
+
+<key>abouttitle11</key>
+<string>您已经收集了</string>
+
+<key>abouttitle12</key>
+<string>个愿望</string>
+
+<key>abouttitle21</key>
+<string>可以让女神开心</string>
+
+<key>abouttitle22</key>
+<string>小时</string>
+
+<key>aboutdesc1</key>
+<string>每颗星都蕴含着一个心愿，</string>
+<key>aboutdesc2</key>
+<string>收集星星的过程就是在成全心愿。</string>
+<key>aboutdesc3</key>
+<string>那些密密麻麻的心情，</string>
+<key>aboutdesc4</key>
+<string>就这样被细细地隐藏在，</string>
+<key>aboutdesc5</key>
+<string>颗颗璀璨的小星里。</string>
+<key>aboutdesc6</key>
+<string>每收集1000个心愿，</string>
+<key>aboutdesc7</key>
+<string>就能够让女神开心1小时,</string>
+<key>aboutdesc8</key>
+<string>还在等什么?</string>
+<key>aboutdesc9</key>
+<string>成为万千女神钟爱的暖男吧！</string>
+
+<key>nvshenkaixin</key>
+<string>女神又可以开心</string>
+
+<key>xiaoshi</key>
+<string>小时</string>
+
+<key>shouji</key>
+<string>开始收集愿望</string>
+
+<key>jinbei</key>
+<string>金币</string>
+
+</dict>
+
+</array>
+</plist>

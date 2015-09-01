@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 前两位是透明的效果，参数从00到99（透明，不怎么透明），后6位是颜色的设置 -->
+    <color name="transparent_background">#95000000</color>
+    <color name="transparent_background_zjh">#95403B5A</color>
+    
+    <color name="task_prize_gold_text">#744700</color>
+    <color name="text_yellow">#FDD600</color>
+    <color name="player_pet_rate_bg_0">#00343C</color>
+    <color name="player_pet_rate_bg_1">#003F49</color>
+    <color name="playerpet_light_line">#006a76</color>
+    <color name="red">#FF0000</color>
+    
+      <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="lonzhu_bg_0">#dfd7e2</color>
+    <color name="lonzhu_bg_1">#f7f7f7</color>
+    <color name="task_common_unactivate">#5096a1</color>
+
+</resources>

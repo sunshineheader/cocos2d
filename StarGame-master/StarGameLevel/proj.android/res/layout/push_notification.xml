@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray" >
+    <ImageView android:id="@+id/push_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/push_logo"/>
+    <LinearLayout 
+        android:id="@+id/text_area"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/push_icon">
+	    <TextView android:id="@+id/push_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="8dp"
+	        android:layout_toRightOf="@+id/push_icon"
+	        android:layout_alignTop="@+id/push_icon"
+	        android:layout_marginTop="-5dp"
+	        android:textColor="@android:color/black"
+	        android:textSize="18sp"        
+	        android:text="疯狂连连看"/>
+	    <TextView android:id="@+id/push_content"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/push_icon"
+	        android:layout_alignLeft="@+id/push_title"
+	        android:layout_below="@+id/push_title"
+	        android:layout_marginBottom="6dp"
+	        android:layout_alignParentBottom="true"
+	        android:textColor="@android:color/black"
+	        android:textSize="14sp"
+	        android:text="疯狂连连看是一款经典的休闲游戏，打发空闲时间的武器"/>
+    </LinearLayout>
+</RelativeLayout>
