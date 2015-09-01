@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/out_bg"
+        android:layout_width="320dp"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/more_game_body"
+            android:layout_width="320dp"
+            android:layout_height="317dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="14dip"
+            android:background="@drawable/more_game_bg"
+            android:paddingLeft="15.65dip"
+            android:paddingRight="15.65dip"
+            android:paddingTop="4dip" >
+
+            <GridView
+                android:id="@+id/more_game_view"
+                android:layout_width="320dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                android:layout_marginTop="70.66dip"
+                android:gravity="center"
+                android:horizontalSpacing="0dip"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="0dip" >
+            </GridView>
+
+            <TextView
+                android:id="@+id/no_other_game_tip"
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dip"
+                android:gravity="center"
+                android:text="当前网络未连接，请检查网络状态"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/dialog_title"
+            android:layout_width="125dp"
+            android:layout_height="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp" />
+
+        <ImageView
+            android:id="@+id/more_game_title"
+            android:layout_width="108dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/more_game_title" />
+
+        <ImageButton
+            android:id="@+id/more_game_cancle"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/dialog_close_btn_state" />
+    </RelativeLayout>
+
+</RelativeLayout>

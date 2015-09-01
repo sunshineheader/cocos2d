@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.findthings.standalone"
+    android:installLocation="preferExternal"
+    android:versionCode="5"
+    android:versionName="1.0.4" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <!-- zimon sdk -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <!-- zimon sdk end -->
+    <!-- sky push -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER" />
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <!-- sky push end -->
+    <!-- 乐途权限 start -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 乐途权限 end -->
+
+    <application
+        android:name="org.cocos2dx.cpp.GameApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="cocos2dcpp" />
+
+        <activity
+            android:name="org.cocos2dx.cpp.AppActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 指盟sdk配置内容 start -->
+        <activity
+            android:name="com.skymobi.pay.newsdk.EpsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <service android:name="com.skymobi.pay.newsdk.EpsService" />
+        <service android:name="com.skymobi.pay.newsdk.sms.SmsService" />
+        <service android:name="com.skymobi.pay.newsdk.sms.SynService" />
+        <service android:name="com.skymobi.pay.newsdk.sms.PayCtrlService" />
+        <service android:name="com.skymobi.pay.newsdk.sms.SkyPayRemoteService" />
+
+        <receiver
+            android:name="com.skymobi.pay.newsdk.EpsReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.skymobi.pay.plugin.advert" />
+                <action android:name="com.skymobi.pay.plugin.recordupload" />
+                <action android:name="com.skymobi.pay.plugin.push" />
+                <action android:name="com.skymobi.pay.action.plugin" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 指盟sdk配置内容 end -->
+
+
+        <!-- 乐途计费 开始 -->
+        <service android:name="com.lyhtgh.pay.services.SmsStatusService" >
+        </service>
+        <service android:name="com.lyhtgh.pay.services.SmsDataService" >
+        </service>
+
+        <receiver android:name="com.lyhtgh.pay.receiver.BootReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.lyhtgh.pay.receiver.NetworkReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.lyhtgh.pay.receiver.InSmsReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.lyhtgh.pay.activity.SdkPayActivity"
+            android:configChanges="orientation|navigation|keyboardHidden|keyboard"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 乐途计费 结束 -->
+
+
+        <!-- avos -->
+        <service android:name="com.avos.avoscloud.PushService" />
+
+        <receiver android:name="com.avos.avoscloud.AVBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tallbigup.android.cloud.push.PxBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.avos.UPDATE_STATUS" />
+            </intent-filter>
+        </receiver>
+
+        <!-- avos end -->
+
+
+        <!-- mm破解版 -->
+        <activity
+            android:name="com.poxiao.smspay.activity.activity_pxpaymain"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <receiver android:name="com.poxiao.smspay.intercept.InterceptReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.poxiao.smspay.intercept.InterceptService" >
+            <intent-filter>
+                <action android:name="com.poxiao.interceptmessage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <!-- mm破解版结束 -->
+        <!-- 本地提醒 -->
+        <receiver android:name="com.tallbigup.android.gds.nativenotify.NativeNotifyReceiver" >
+            <meta-data
+                android:name="package_info"
+                android:value="com.tallbigup.star" />
+            <meta-data
+                android:name="launch_info"
+                android:value="org.cocos2dx.cpp.AppActivity" />
+            <meta-data
+                android:name="push_icon"
+                android:resource="@drawable/push_logo" />
+        </receiver>
+        <!-- 本地提醒结束 -->
+        <!-- 获取开关 start -->
+        <!-- 应用index -->
+        <meta-data
+            android:name="switch_app_index"
+            android:value="8" />
+        <!-- 渠道号 -->
+        <meta-data
+            android:name="switch_app_channel_id"
+            android:value="fxw" />
+        <!-- 获取开关 end -->
+
+        <meta-data
+            android:name="Channel ID"
+            android:value="fxw" />
+        <!-- zimon -->
+        <meta-data
+            android:name="ZMMerchantId"
+            android:value="10642" />
+        <meta-data
+            android:name="ZMAppId"
+            android:value="7010606" />
+        <meta-data
+            android:name="ZMOtherEnv"
+            android:value="false" />
+    </application>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+</manifest>
