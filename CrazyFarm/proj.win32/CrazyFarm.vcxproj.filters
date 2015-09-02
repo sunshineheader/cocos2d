@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fish">
+      <UniqueIdentifier>{250bdeb2-f224-4f52-906b-0dade617936f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bullet">
+      <UniqueIdentifier>{70ab62ff-3f5d-42b6-a583-1c4a3b053abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\turret">
+      <UniqueIdentifier>{b1cb3003-a665-41af-af37-9c761f25c129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lobby">
+      <UniqueIdentifier>{5df39d18-eef1-4a1f-903b-5df323ea1fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\level">
+      <UniqueIdentifier>{1793ccc9-a05f-47ab-abf9-7cd7773733ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{9d08e1d8-2d25-4e74-9fa1-a9544cf11f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pause">
+      <UniqueIdentifier>{33c9feeb-ee80-4b25-a661-727d6b7d5adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\result">
+      <UniqueIdentifier>{b96db02d-0aee-4fe3-a8b7-fb648749b691}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Audio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chinese.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CallAndroidMethod.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FishManage.cpp">
+      <Filter>src\fish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Fish.cpp">
+      <Filter>src\fish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>src\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Turret.cpp">
+      <Filter>src\turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LobbyScene.cpp">
+      <Filter>src\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScrollText.cpp">
+      <Filter>src\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelLayer.cpp">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelScene.cpp">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelectPage.cpp">
+      <Filter>src\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameGuiLayer.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePauseLayer.cpp">
+      <Filter>src\pause</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameResultLayer.cpp">
+      <Filter>src\result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameResultScene.cpp">
+      <Filter>src\result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletManage.cpp">
+      <Filter>src\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CircleBy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Audio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chinese.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CallAndroidMethod.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Fish.h">
+      <Filter>src\fish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FishManage.h">
+      <Filter>src\fish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>src\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Turret.h">
+      <Filter>src\turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LobbyScene.h">
+      <Filter>src\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScrollText.h">
+      <Filter>src\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelLayer.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelScene.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelectPage.h">
+      <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameGuiLayer.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePauseLayer.h">
+      <Filter>src\pause</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameResultLayer.h">
+      <Filter>src\result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameResultScene.h">
+      <Filter>src\result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletManage.h">
+      <Filter>src\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CircleBy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
