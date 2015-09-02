@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{1eee5858-65c8-432d-bdc0-84756855f662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{204c3cde-d3da-495e-953c-632a66a0a283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Base">
+      <UniqueIdentifier>{ced5016e-1ce7-4956-9c3d-982ce39caae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{b08f5fe0-bddf-467b-bd8d-0439104ba30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{d06fedc7-dd39-47a9-a557-3f85e2aa26e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\NodeReaders">
+      <UniqueIdentifier>{9c93e889-57d6-4120-a0e5-64ee60d17cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Quests">
+      <UniqueIdentifier>{f8ded8c4-2d94-4051-9f78-1cfd980ae071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameObjects">
+      <UniqueIdentifier>{0e86abf3-dc83-4136-9972-cfe22302dd2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Props">
+      <UniqueIdentifier>{87578744-89ab-4f8b-b0b7-64b88090569a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{e46a707b-07be-4fdf-8fba-cc6fb26b4b1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneMain.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\RapidJsonHelper.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\Properties.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneLoading.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneLevelSelect.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\ScenePropSelect.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneGame.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneSettlement.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Base\RepeatedBackground.cpp">
+      <Filter>src\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameMap.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\ScrollController.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneBase.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NodeReaders\SceneMainReader.cpp">
+      <Filter>src\NodeReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\SceneHelper.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NodeReaders\SceneLevelSelectReader.cpp">
+      <Filter>src\NodeReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SceneCharacterSelect.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NodeReaders\SceneGameReader.cpp">
+      <Filter>src\NodeReaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\UserData.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\WuJiang.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\GameObject.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\PropItem.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\ScoreItem.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Quests\CollectionQuest.cpp">
+      <Filter>src\Game\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Quests\EndlessQuest.cpp">
+      <Filter>src\Game\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Quests\KillQuest.cpp">
+      <Filter>src\Game\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Quests\RacingQuest.cpp">
+      <Filter>src\Game\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\WenChen.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\ZhuGong.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\SharpBall.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\ShieldSoldier.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\SpearSoldier.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Props\AutoCollectScoreItems.cpp">
+      <Filter>src\Game\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Quests\Quest.cpp">
+      <Filter>src\Game\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Props\QuickFlying.cpp">
+      <Filter>src\Game\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\House.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\Spiling.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\FireBall.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Props\JiaSuEffect.cpp">
+      <Filter>src\Game\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Props\InvincibleEffect.cpp">
+      <Filter>src\Game\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\MathUtils.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\Polygon.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\Circle.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\Intersector.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\OrientedRect.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\Segment.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Platform.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\TmxMapHelper.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameObjects\Block.cpp">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\QuestHelper.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneMain.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\RapidJsonHelper.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Properties.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneLoading.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneLevelSelect.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\ScenePropSelect.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneGame.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneSettlement.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Base\RepeatedBackground.h">
+      <Filter>src\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameMap.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\ScrollController.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneBase.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NodeReaders\SceneMainReader.h">
+      <Filter>src\NodeReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\SceneHelper.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NodeReaders\SceneLevelSelectReader.h">
+      <Filter>src\NodeReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SceneCharacterSelect.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NodeReaders\SceneGameReader.h">
+      <Filter>src\NodeReaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\UserData.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\WuJiang.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\GameObject.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\PropItem.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\ScoreItem.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Quests\CollectionQuest.h">
+      <Filter>src\Game\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Quests\EndlessQuest.h">
+      <Filter>src\Game\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Quests\KillQuest.h">
+      <Filter>src\Game\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Quests\Quest.h">
+      <Filter>src\Game\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Quests\RacingQuest.h">
+      <Filter>src\Game\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\WenChen.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\ZhuGong.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\SharpBall.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\ShieldSoldier.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\SpearSoldier.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Props\AutoCollectScoreItems.h">
+      <Filter>src\Game\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Props\QuickFlying.h">
+      <Filter>src\Game\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\House.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\Spiling.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\FireBall.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Props\JiaSuEffect.h">
+      <Filter>src\Game\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Props\InvincibleEffect.h">
+      <Filter>src\Game\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\MathUtils.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\Polygon.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\Circle.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\Intersector.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\OrientedRect.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\Segment.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Platform.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\TmxMapHelper.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameObjects\Block.h">
+      <Filter>src\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\QuestHelper.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

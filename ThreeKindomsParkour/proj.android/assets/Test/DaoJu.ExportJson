@@ -1,0 +1,206 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.6.0.0",
+      "version": 1.6,
+      "name": "DaoJu",
+      "bone_data": [
+        {
+          "name": "Spiling",
+          "parent": "",
+          "dI": 0,
+          "x": -1.5,
+          "y": 1.67333984375,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 3.11067462,
+          "kY": -3.11067462,
+          "arrow_x": 97.046401977539062,
+          "arrow_y": -8.39523272588849E-06,
+          "effectbyskeleton": true,
+          "bl": 97,
+          "display_data": [
+            {
+              "name": "MuZhuang/MuZhuang0010001.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -2.44707823,
+                  "y": 1.74982226,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 3.17251062,
+                  "kY": 3.11067462
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "DaoJu",
+      "mov_data": [
+        {
+          "name": "Idle",
+          "dr": 34,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "Spiling",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 52.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 52.0,
+                  "y": -4.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.17453292,
+                  "kY": -0.17453292,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 52.0,
+                  "y": -4.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.17453292,
+                  "kY": 0.17453292,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 52.0,
+                  "y": -4.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 33,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "MuZhuang/MuZhuang0010001",
+      "width": 181.0,
+      "height": 141.0,
+      "pX": 0.762430966,
+      "pY": 0.4822695,
+      "plistFile": "",
+      "contour_data": [
+        {
+          "vertex": [
+            {
+              "x": -71.0,
+              "y": 0.0
+            },
+            {
+              "x": 15.0,
+              "y": 0.0
+            },
+            {
+              "x": 6.0,
+              "y": -19.0
+            },
+            {
+              "x": -76.0,
+              "y": -18.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": -79.0,
+              "y": -21.0
+            },
+            {
+              "x": -117.0,
+              "y": -22.0
+            },
+            {
+              "x": -120.0,
+              "y": 10.0
+            },
+            {
+              "x": -94.0,
+              "y": 31.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": 8.0,
+              "y": 22.0
+            },
+            {
+              "x": 15.0,
+              "y": 6.0
+            },
+            {
+              "x": -78.0,
+              "y": 9.0
+            },
+            {
+              "x": -88.0,
+              "y": 36.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config_file_path": [
+    "DaoJu0.plist"
+  ],
+  "config_png_path": [
+    "DaoJu0.png"
+  ]
+}

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="10" height="10" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="GameObjects" tilewidth="327" tileheight="177">
+  <tile id="0">
+   <image width="54" height="53" source="../Maps/Objects/Coin.png"/>
+   <objectgroup draworder="index" name="Objects_Coin">
+    <properties>
+     <property name="height" value="53"/>
+     <property name="width" value="54"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="-13" y="52">
+     <polygon points="0,0 -5,-77 45,1"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="72" y="-20">
+     <polygon points="0,0 17,63 -72,47"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <image width="109" height="116" source="../Maps/Objects/Fence.png"/>
+   <objectgroup draworder="index" name="Objects_Fence">
+    <properties>
+     <property name="height" value="116"/>
+     <property name="width" value="109"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="0" y="27">
+     <polygon points="0,0 41,-28 106,-24 90,58 16,87"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="0" y="27">
+     <polygon points="0,0 41,-28 106,-24 90,58 16,87"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <image width="230" height="75" source="../Maps/Objects/FireBall.png"/>
+   <objectgroup draworder="index" name="Objects_FireBall">
+    <properties>
+     <property name="height" value="75"/>
+     <property name="width" value="230"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="15" y="34">
+     <polygon points="0,0 77,-14 157,15 26,26"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="15" y="34">
+     <polygon points="0,0 77,-14 157,15 26,26"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <image width="142" height="118" source="../Maps/Objects/House.png"/>
+   <objectgroup draworder="index">
+    <properties>
+     <property name="height" value="118"/>
+     <property name="width" value="142"/>
+    </properties>
+    <object id="0" x="35" y="44">
+     <polygon points="0,0 36,-34 73,-39 107,5 89,67 10,69"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <image width="59" height="62" source="../Maps/Objects/SharpBall.png"/>
+   <objectgroup draworder="index" name="Objects_SharpBall">
+    <properties>
+     <property name="height" value="62"/>
+     <property name="width" value="59"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="5" y="28">
+     <polygon points="0,0 25,-27 50,7 40,27 9,30"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="5" y="28">
+     <polygon points="0,0 25,-27 50,7 40,27 9,30"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <image width="133" height="102" source="../Maps/Objects/ShieldSoldier.png"/>
+   <objectgroup draworder="index" name="Objects_ShieldSoldier">
+    <properties>
+     <property name="height" value="102"/>
+     <property name="width" value="133"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="2" y="24">
+     <polygon points="0,0 4,46 48,76 43,-18"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="52" y="1">
+     <polygon points="3,10 9,93 73,84 45,7"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <image width="160" height="94" source="../Maps/Objects/SpearSoldier.png"/>
+   <objectgroup draworder="index" name="Objects_SpearSoldier">
+    <properties>
+     <property name="height" value="94"/>
+     <property name="width" value="160"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="-5" y="53">
+     <polygon points="0,0 42,-13 87,7 84,37 26,37"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="81" y="11">
+     <polygon points="0,0 9,78 70,77 43,-2"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <image width="151" height="74" source="../Maps/Objects/Spiling.png"/>
+   <objectgroup draworder="index" name="Objects_Spiling">
+    <properties>
+     <property name="height" value="74"/>
+     <property name="width" value="151"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="142" y="59">
+     <polygon points="-14,3 -115,-50 -142,-38 -132,12"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="51" y="13">
+     <polygon points="0,0 95,9 93,49 4,50"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="9" name="Character" tilewidth="111" tileheight="160">
+  <tile id="0">
+   <image width="88" height="128" source="../Character/ZhuGong/Fall.png"/>
+   <objectgroup draworder="index" name="Character_ZhuGong_Fall">
+    <properties>
+     <property name="height" value="128"/>
+     <property name="width" value="88"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="36" y="104">
+     <polygon points="-28,-2 -18,20 46,20 41,-1"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="11" y="12">
+     <polygon points="0,0 4,63 41,111 69,97 56,-6"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <image width="93" height="121" source="../Character/ZhuGong/Jump1.png"/>
+   <objectgroup draworder="index" name="Character_ZhuGong_Jump1">
+    <properties>
+     <property name="height" value="121"/>
+     <property name="width" value="93"/>
+    </properties>
+    <object id="0" name="DefenceRegion" x="18" y="11">
+     <polygon points="0,0 -11,101 48,110 72,43 50,-9"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <image width="86" height="123" source="../Character/ZhuGong/Jump2.png"/>
+   <objectgroup draworder="index" name="Character_ZhuGong_Jump2">
+    <properties>
+     <property name="height" value="123"/>
+     <property name="width" value="86"/>
+    </properties>
+    <object id="0" name="DefenceRegion" x="9" y="15">
+     <polygon points="0,0 7,79 36,106 57,100 76,20 40,-14"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <image width="103" height="140" source="../Character/ZhuGong/Jump3.png"/>
+   <objectgroup draworder="index" name="Character_ZhuGong_Jump3">
+    <properties>
+     <property name="height" value="140"/>
+     <property name="width" value="103"/>
+    </properties>
+    <object id="0" name="DefenceRegion" x="1" y="125">
+     <polygon points="0,0 33,-120 97,-105 26,15"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <image width="111" height="160" source="../Character/ZhuGong/Run.png"/>
+   <objectgroup draworder="index" name="Character_ZhuGong_Run">
+    <properties>
+     <property name="height" value="160"/>
+     <property name="width" value="111"/>
+    </properties>
+    <object id="0" name="AttackRegion" x="24" y="114">
+     <polygon points="0,0 1,22 73,25 65,1"/>
+    </object>
+    <object id="0" name="DefenceRegion" x="29" y="23">
+     <polygon points="0,0 -2,114 59,114 60,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+</map>

@@ -1,0 +1,1222 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.6.0.0",
+      "version": 1.6,
+      "name": "ZhuGeLiang",
+      "bone_data": [
+        {
+          "name": "ShenZi",
+          "parent": "",
+          "dI": 0,
+          "x": 6.8629250526428223,
+          "y": -16.024021148681641,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.64105093,
+          "kY": 1.64105093,
+          "arrow_x": 54.133544921875,
+          "arrow_y": -6.4910691435215995E-06,
+          "effectbyskeleton": true,
+          "bl": 54,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/ShenTi.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -0.960306168,
+                  "y": 0.07617235,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": 1.64105093,
+                  "kY": -1.64105093
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "YanJing",
+          "parent": "ShenZi",
+          "dI": 0,
+          "x": 20.4905948638916,
+          "y": -3.6845355033874512,
+          "z": 8,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 3.29498863,
+          "kY": -3.29498863,
+          "arrow_x": 4.8166241645812988,
+          "arrow_y": 6.6406423684384208E-06,
+          "effectbyskeleton": true,
+          "bl": 4,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/ZhengYan.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.6806326,
+                  "y": -0.0436239243,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": 4.646701,
+                  "kY": 1.63648427
+                }
+              ]
+            },
+            {
+              "name": "ZhuGeLiang_QieTu/BiYan.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "YouYiXiu",
+          "parent": "ShenZi",
+          "dI": 0,
+          "x": 9.081995964050293,
+          "y": -4.8494906425476074,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.97134829,
+          "kY": -1.97134829,
+          "arrow_x": 7.39999532699585,
+          "arrow_y": -4.0503073250874877E-06,
+          "effectbyskeleton": true,
+          "bl": 7,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/YiXiu.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.363750458,
+                  "y": -0.470749855,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.330297351,
+                  "kY": 0.330297351
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ShanZi",
+          "parent": "YouYiXiu",
+          "dI": 0,
+          "x": 4.4756813049316406,
+          "y": 1.7459416389465332,
+          "z": 7,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.06921744,
+          "kY": 1.06921744,
+          "arrow_x": 36.526145935058594,
+          "arrow_y": -6.8838116931146942E-06,
+          "effectbyskeleton": true,
+          "bl": 36,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/ShanZi.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.327201366,
+                  "y": -0.5190067,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.7389201,
+                  "kY": -0.7389201
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QianDangBu",
+          "parent": "ShenZi",
+          "dI": 0,
+          "x": -4.0322513580322266,
+          "y": -0.31773233413696289,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 2.917117,
+          "kY": -2.917117,
+          "arrow_x": 11.704699516296387,
+          "arrow_y": -1.2816877642762847E-05,
+          "effectbyskeleton": true,
+          "bl": 11,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/QianHuJia.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.170824051,
+                  "y": -0.6878648,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.27606618,
+                  "kY": 1.27606618
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "XiaShen",
+          "parent": "ShenZi",
+          "dI": 0,
+          "x": -5.0181884765625,
+          "y": -1.4884848594665527,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 3.10318613,
+          "kY": -3.10318613,
+          "arrow_x": 11.065257072448731,
+          "arrow_y": -1.5296227502403781E-05,
+          "effectbyskeleton": true,
+          "bl": 11,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/XiaShen.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -0.406074524,
+                  "y": -0.605186939,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.462135,
+                  "kY": 1.46213508
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MaoBi",
+          "parent": "ShenZi",
+          "dI": 0,
+          "x": -12.093063354492188,
+          "y": -17.995508193969727,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 4.761218,
+          "kY": -4.761218,
+          "arrow_x": 56.012855529785156,
+          "arrow_y": -1.5812654964975081E-05,
+          "effectbyskeleton": true,
+          "bl": 56,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/MaoBi.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.288864136,
+                  "y": 0.730470657,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": 3.16301823,
+                  "kY": 3.12016726
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GuaShi",
+          "parent": "MaoBi",
+          "dI": 0,
+          "x": -7.9895706176757812,
+          "y": 0.57128143310546875,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.23103333,
+          "kY": 1.23103333,
+          "arrow_x": 18.531045913696289,
+          "arrow_y": 6.4670639403630048E-06,
+          "effectbyskeleton": true,
+          "bl": 18,
+          "display_data": [
+            {
+              "name": "ZhuGeLiang_QieTu/MaoBiGuaShi.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -0.16261673,
+                  "y": 0.290561676,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 4.39405155,
+                  "kY": 1.88913393
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "ZhuGeLiang",
+      "mov_data": [
+        {
+          "name": "Spell",
+          "dr": 26,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "YanJing",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": false,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 1,
+                  "x": 0.96649742126464844,
+                  "y": 2.337921142578125,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.65033031,
+                  "kY": 1.65033031,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": false,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 1,
+                  "x": 0.96649742126464844,
+                  "y": 2.337921142578125,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.65033031,
+                  "kY": 1.65033031,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": false,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "ShanZi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.07960762,
+                  "kY": 0.07960762,
+                  "fi": 5,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.128119841,
+                  "kY": 0.128119841,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.20044516,
+                  "kY": 0.20044516,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.2359087,
+                  "kY": -0.2359087,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.2359087,
+                  "kY": -0.2359087,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "YouYiXiu",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.2617994,
+                  "kY": 0.2617994,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.388245881,
+                  "kY": -0.388245881,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.388245881,
+                  "kY": -0.388245881,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "ShenZi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "QianDangBu",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.185788929,
+                  "kY": 0.185788929,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0118960626,
+                  "kY": -0.0118960626,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0118960626,
+                  "kY": -0.0118960626,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "XiaShen",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "GuaShi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.154570282,
+                  "kY": 0.154570282,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.125332847,
+                  "kY": -0.125332847,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.125332847,
+                  "kY": -0.125332847,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "MaoBi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.23750877380371094,
+                  "y": -0.0167083740234375,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.23750877380371094,
+                  "y": -0.0167083740234375,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle",
+          "dr": 21,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "YanJing",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": false,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 1,
+                  "x": 0.69098663330078125,
+                  "y": 2.1188507080078125,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.63544118,
+                  "kY": 1.63544118,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": false,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "ShanZi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.012136491,
+                  "kY": -0.012136491,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.00566841662,
+                  "kY": 0.00566841662,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "YouYiXiu",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0174532924,
+                  "kY": -0.0174532924,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0174532924,
+                  "kY": 0.0174532924,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "ShenZi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "QianDangBu",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0559112467,
+                  "kY": 0.0559112467,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.04693244,
+                  "kY": -0.04693244,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "XiaShen",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "GuaShi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.238349229,
+                  "kY": 0.238349229,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.004143389,
+                  "kY": 0.004143389,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "MaoBi",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "ZhuGeLiang_QieTu/ZhengYan",
+      "width": 22.0,
+      "height": 5.0,
+      "pX": 0.606060565,
+      "pY": 0.466666639,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/ShenTi",
+      "width": 52.0,
+      "height": 89.0,
+      "pX": 0.6846154,
+      "pY": 0.244943857,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/ShanZi",
+      "width": 31.0,
+      "height": 32.0,
+      "pX": 0.0322580636,
+      "pY": 0.0625,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/XiaShen",
+      "width": 25.0,
+      "height": 17.0,
+      "pX": 0.466666669,
+      "pY": 0.745098054,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/QianHuJia",
+      "width": 15.0,
+      "height": 26.0,
+      "pX": 0.355555564,
+      "pY": 0.9358974,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/YiXiu",
+      "width": 18.0,
+      "height": 27.0,
+      "pX": 0.09259259,
+      "pY": 0.7407407,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/MaoBiGuaShi",
+      "width": 15.0,
+      "height": 24.0,
+      "pX": 0.844444454,
+      "pY": 0.9444444,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/MaoBi",
+      "width": 82.0,
+      "height": 26.0,
+      "pX": 0.8821139,
+      "pY": 0.551282048,
+      "plistFile": ""
+    },
+    {
+      "name": "ZhuGeLiang_QieTu/BiYan",
+      "width": 22.0,
+      "height": 5.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "ZhuGeLiang0.plist"
+  ],
+  "config_png_path": [
+    "ZhuGeLiang0.png"
+  ]
+}

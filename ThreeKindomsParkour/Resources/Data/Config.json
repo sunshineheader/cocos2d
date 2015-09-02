@@ -1,0 +1,17 @@
+{
+	"GameName" : "放开那三国",
+
+	"InitalMoveSpeed" : 400,
+	"BackgroundSpeedScale" : 0.25,
+	"MediumShotSpeedScale" : 0.5,
+	"CloseShotSpeedScale" : 0.8,
+
+	"Damping" : 0.25,
+	"Gravity" : -37,
+	"FirstJumpSpeed" : 800,
+	"SecondJumpSpeed" : 700,
+	"ThirdJumpSpeed" : 700,
+	"ZhuGongFixedScreenPositionX" : 0.27,
+	"WenChenOffsetX" : -140,
+	"WuJiangOffsetX" : 200
+}

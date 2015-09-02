@@ -1,0 +1,189 @@
+{
+	"IconNames" : 
+	{
+		"Collection_ScoreItem_SmallCoin" 	: "Icons/Coin.png",
+		"Collection_ScoreItem_BigCoin" 		: "Icons/Coin.png",
+		"Collection_PropItem_CiTie" 		: "Icons/Prop_CiTie.png",
+		"Collection_PropItem_BaGuaDun" 		: "Icons/Prop_BaGuaDun.png",
+		"Collection_PropItem_FeiNiao" 		: "Icons/Prop_FeiNiao.png",
+		"Collection_PropItem_FeiXingGuai" 	: "Icons/Prop_FeiXingGuai.png",
+		"Collection_PropItem_JiaSu" 		: "Icons/Prop_JiaSu.png",
+
+		"Racing_Score" 		: "Icons/Diamond.png",
+		"Racing_Fever" 		: "Icons/Diamond.png",
+		"Racing_Distance" 		: "Icons/Diamond.png",
+		"Racing_DoubleJump" 		: "Icons/Diamond.png",
+
+		"Kill_House" 		: "Icons/Diamond.png",
+		"Kill_SharpBall" 		: "Icons/Diamond.png",
+		"Kill_FireBall" 		: "Icons/Diamond.png",
+		"Kill_SpearSoldier" 		: "Icons/Diamond.png",
+		"Kill_ShieldSoldier" 		: "Icons/Diamond.png",
+		"Kill_Block" 		: "Icons/Diamond.png",
+		"Kill_Spiling" 		: "Icons/Diamond.png"
+	},
+
+	"QuestNames" :
+	{
+		"Collection_ScoreItem_SmallCoin" 	: "收集%d个小金币!",
+		"Collection_ScoreItem_BigCoin" 		: "收集%d个大金币!",
+		"Collection_PropItem_CiTie" 		: "收集%d个磁铁!",
+		"Collection_PropItem_BaGuaDun" 		: "收集%d个八卦盾!",
+		"Collection_PropItem_FeiNiao" 		: "收集%d个龙舟!",
+		"Collection_PropItem_FeiXingGuai" 	: "收集%d个飞行怪!",
+		"Collection_PropItem_JiaSu" 		: "收集%d个加速道具!",
+
+		"Racing_Score" 		: "奔跑%d米!",
+		"Racing_Fever" 		: "获得%d积分!",
+		"Racing_Distance" 		: "获得%d个Fever!",
+		"Racing_DoubleJump" 		: "%d次2连跳!",
+
+		"Kill_House" 		: "破坏%d辆粮车!",
+		"Kill_SharpBall" 		: "破坏%d个尖刺球!",
+		"Kill_FireBall" 		: "击杀%d个飞行火焰!",
+		"Kill_SpearSoldier" 		: "击杀%d个长矛兵!",
+		"Kill_ShieldSoldier" 		: "击杀%d个盾牌兵!",
+		"Kill_Block" 		: "破坏%d个栅栏!",
+		"Kill_Spiling" 		: "击杀%d个飞行木桩!"
+	},
+
+	"Quests" :
+	[
+		{
+			"MajorType" : "Collection",
+			"MinorType" : "ScoreItem_SmallCoin",
+			"Data" : 
+			{
+				"TargetNumber" : 30
+			}
+		},
+		{
+			"MajorType" : "Collection",
+			"MinorType" : "PropItem_CiTie",
+			"Data" : 
+			{
+				"TargetNumber" : 1
+			}
+		},
+		{
+			"MajorType" : "Collection",
+			"MinorType" : "Prop_BaGuaDun",
+			"Data" : 
+			{
+				"TargetNumber" : 1
+			}
+		},
+		{
+			"MajorType" : "Collection",
+			"MinorType" : "PropItem_FeiNiao",
+			"Data" : 
+			{
+				"TargetNumber" : 1
+			}
+		},
+		{
+			"MajorType" : "Collection",
+			"MinorType" : "PropItem_FeiXingGuai",
+			"Data" : 
+			{
+				"TargetNumber" : 1
+			}
+		},
+		{
+			"MajorType" : "Collection",
+			"MinorType" : "PropItem_JiaSu",
+			"Data" : 
+			{
+				"TargetNumber" : 1
+			}
+		},
+		{
+			"MajorType" : "Racing",
+			"MinorType" : "Distance",
+			"Data" : 
+			{
+				"TargetNumber" : 1000
+			}
+		},
+		{
+			"MajorType" : "Racing",
+			"MinorType" : "Score",
+			"Data" : 
+			{
+				"TargetNumber" : 3000
+			}
+		},
+		{
+			"MajorType" : "Racing",
+			"MinorType" : "Fever",
+			"Data" : 
+			{
+				"TargetNumber" : 1
+			}
+		},
+		{
+			"MajorType" : "Racing",
+			"MinorType" : "DoubleJump",
+			"Data" : 
+			{
+				"TargetNumber" : 10
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "House",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "SharpBall",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "FireBall",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "SpearSoldier",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "ShieldSoldier",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "Block",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		},
+		{
+			"MajorType" : "Kill",
+			"MinorType" : "Spiling",
+			"Data" : 
+			{
+				"TargetNumber" : 5
+			}
+		}
+	]
+}

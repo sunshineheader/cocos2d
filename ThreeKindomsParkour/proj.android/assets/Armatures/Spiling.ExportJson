@@ -1,0 +1,199 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.6.0.0",
+      "version": 1.6,
+      "name": "Spiling",
+      "bone_data": [
+        {
+          "name": "Spiling",
+          "parent": "",
+          "dI": 0,
+          "x": -1.5,
+          "y": -1.6199951171875,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": true,
+          "bl": 0,
+          "display_data": [
+            {
+              "name": "Spiling/Spiling.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 1.5,
+                  "y": 1.61999512,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "Spiling",
+      "mov_data": [
+        {
+          "name": "Idle",
+          "dr": 41,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "Spiling",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.139626339,
+                  "kY": -0.139626339,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.139626339,
+                  "kY": 0.139626339,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.139626339,
+                  "kY": -0.139626339,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "Spiling/Spiling",
+      "width": 151.0,
+      "height": 74.0,
+      "pX": 0.496688753,
+      "pY": 0.5,
+      "plistFile": "",
+      "contour_data": [
+        {
+          "vertex": [
+            {
+              "x": -15.0,
+              "y": 1.0
+            },
+            {
+              "x": 71.0,
+              "y": -2.0
+            },
+            {
+              "x": 65.0,
+              "y": -27.0
+            },
+            {
+              "x": -20.0,
+              "y": -26.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": 67.0,
+              "y": 18.0
+            },
+            {
+              "x": 68.0,
+              "y": 4.0
+            },
+            {
+              "x": -16.0,
+              "y": 4.0
+            },
+            {
+              "x": -15.0,
+              "y": 20.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": -19.0,
+              "y": 18.0
+            },
+            {
+              "x": -26.0,
+              "y": -26.0
+            },
+            {
+              "x": -60.0,
+              "y": -34.0
+            },
+            {
+              "x": -74.0,
+              "y": -16.0
+            },
+            {
+              "x": -69.0,
+              "y": 19.0
+            },
+            {
+              "x": -35.0,
+              "y": 36.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config_file_path": [
+    "Spiling0.plist"
+  ],
+  "config_png_path": [
+    "Spiling0.png"
+  ]
+}

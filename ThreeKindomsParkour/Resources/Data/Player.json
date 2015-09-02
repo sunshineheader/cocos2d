@@ -1,0 +1,7 @@
+{
+	"Damping" : 0.25,
+	"FirstJumpVelocity" : 540,
+	"SecondJumpVelocity" : 480,
+	"ThirdJumpVelocity" : 460,
+	"Gravity" : -15
+}

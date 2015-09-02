@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl_imp.lib;websockets.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\Base\RepeatedBackground.cpp" />
+    <ClCompile Include="..\Classes\Game\GameMap.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\Block.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\FireBall.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\GameObject.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\House.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\PropItem.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\ScoreItem.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\SharpBall.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\ShieldSoldier.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\SpearSoldier.cpp" />
+    <ClCompile Include="..\Classes\Game\GameObjects\Spiling.cpp" />
+    <ClCompile Include="..\Classes\Game\Platform.cpp" />
+    <ClCompile Include="..\Classes\Game\Props\AutoCollectScoreItems.cpp" />
+    <ClCompile Include="..\Classes\Game\Props\InvincibleEffect.cpp" />
+    <ClCompile Include="..\Classes\Game\Props\JiaSuEffect.cpp" />
+    <ClCompile Include="..\Classes\Game\Props\QuickFlying.cpp" />
+    <ClCompile Include="..\Classes\Game\Quests\CollectionQuest.cpp" />
+    <ClCompile Include="..\Classes\Game\Quests\EndlessQuest.cpp" />
+    <ClCompile Include="..\Classes\Game\Quests\KillQuest.cpp" />
+    <ClCompile Include="..\Classes\Game\Quests\Quest.cpp" />
+    <ClCompile Include="..\Classes\Game\Quests\RacingQuest.cpp" />
+    <ClCompile Include="..\Classes\Game\WenChen.cpp" />
+    <ClCompile Include="..\Classes\Game\WuJiang.cpp" />
+    <ClCompile Include="..\Classes\Game\ZhuGong.cpp" />
+    <ClCompile Include="..\Classes\Math\Circle.cpp" />
+    <ClCompile Include="..\Classes\Math\Intersector.cpp" />
+    <ClCompile Include="..\Classes\Math\MathUtils.cpp" />
+    <ClCompile Include="..\Classes\Math\OrientedRect.cpp" />
+    <ClCompile Include="..\Classes\Math\Polygon.cpp" />
+    <ClCompile Include="..\Classes\Math\Segment.cpp" />
+    <ClCompile Include="..\Classes\NodeReaders\SceneGameReader.cpp" />
+    <ClCompile Include="..\Classes\NodeReaders\SceneLevelSelectReader.cpp" />
+    <ClCompile Include="..\Classes\NodeReaders\SceneMainReader.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneBase.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneCharacterSelect.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneGame.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneLevelSelect.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneLoading.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneMain.cpp" />
+    <ClCompile Include="..\Classes\Scenes\ScenePropSelect.cpp" />
+    <ClCompile Include="..\Classes\Scenes\SceneSettlement.cpp" />
+    <ClCompile Include="..\Classes\UI\ScrollController.cpp" />
+    <ClCompile Include="..\Classes\Utils\Properties.cpp" />
+    <ClCompile Include="..\Classes\Utils\QuestHelper.cpp" />
+    <ClCompile Include="..\Classes\Utils\RapidJsonHelper.cpp" />
+    <ClCompile Include="..\Classes\Utils\SceneHelper.cpp" />
+    <ClCompile Include="..\Classes\Utils\TmxMapHelper.cpp" />
+    <ClCompile Include="..\Classes\Utils\UserData.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\Base\RepeatedBackground.h" />
+    <ClInclude Include="..\Classes\Game\GameMap.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\Block.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\FireBall.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\GameObject.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\House.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\PropItem.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\ScoreItem.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\SharpBall.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\ShieldSoldier.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\SpearSoldier.h" />
+    <ClInclude Include="..\Classes\Game\GameObjects\Spiling.h" />
+    <ClInclude Include="..\Classes\Game\Platform.h" />
+    <ClInclude Include="..\Classes\Game\Props\AutoCollectScoreItems.h" />
+    <ClInclude Include="..\Classes\Game\Props\InvincibleEffect.h" />
+    <ClInclude Include="..\Classes\Game\Props\JiaSuEffect.h" />
+    <ClInclude Include="..\Classes\Game\Props\QuickFlying.h" />
+    <ClInclude Include="..\Classes\Game\Quests\CollectionQuest.h" />
+    <ClInclude Include="..\Classes\Game\Quests\EndlessQuest.h" />
+    <ClInclude Include="..\Classes\Game\Quests\KillQuest.h" />
+    <ClInclude Include="..\Classes\Game\Quests\Quest.h" />
+    <ClInclude Include="..\Classes\Game\Quests\RacingQuest.h" />
+    <ClInclude Include="..\Classes\Game\WenChen.h" />
+    <ClInclude Include="..\Classes\Game\WuJiang.h" />
+    <ClInclude Include="..\Classes\Game\ZhuGong.h" />
+    <ClInclude Include="..\Classes\Math\Circle.h" />
+    <ClInclude Include="..\Classes\Math\Intersector.h" />
+    <ClInclude Include="..\Classes\Math\MathUtils.h" />
+    <ClInclude Include="..\Classes\Math\OrientedRect.h" />
+    <ClInclude Include="..\Classes\Math\Polygon.h" />
+    <ClInclude Include="..\Classes\Math\Segment.h" />
+    <ClInclude Include="..\Classes\NodeReaders\SceneGameReader.h" />
+    <ClInclude Include="..\Classes\NodeReaders\SceneLevelSelectReader.h" />
+    <ClInclude Include="..\Classes\NodeReaders\SceneMainReader.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneBase.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneCharacterSelect.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneGame.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneLevelSelect.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneLoading.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneMain.h" />
+    <ClInclude Include="..\Classes\Scenes\ScenePropSelect.h" />
+    <ClInclude Include="..\Classes\Scenes\SceneSettlement.h" />
+    <ClInclude Include="..\Classes\UI\ScrollController.h" />
+    <ClInclude Include="..\Classes\Utils\Properties.h" />
+    <ClInclude Include="..\Classes\Utils\QuestHelper.h" />
+    <ClInclude Include="..\Classes\Utils\RapidJsonHelper.h" />
+    <ClInclude Include="..\Classes\Utils\SceneHelper.h" />
+    <ClInclude Include="..\Classes\Utils\TmxMapHelper.h" />
+    <ClInclude Include="..\Classes\Utils\UserData.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj">
+      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

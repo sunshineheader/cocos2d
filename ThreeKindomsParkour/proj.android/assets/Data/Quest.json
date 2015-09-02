@@ -1,0 +1,19 @@
+{
+	"ScoreItem_SmallCoin" : "收集%d个小金币!",
+	"PropItem_CiTie" : "收集%d个磁铁!",
+	"PropItem_BaGuaDun" : "收集%d个八卦盾!",
+	"PropItem_FeiNiao" : "收集%d个飞鸟!",
+	"PropItem_FeiXingGuai" : "收集%d个飞行怪!",
+	"PropItem_JiaSu" : "收集%d个加速道具!",
+	"RacingQuest_Distance" : "奔跑%d米!",
+	"RacingQuest_Score" : "获得%d积分!",
+	"RacingQuest_Fever" : "获得%d个Fever!",
+	"RacingQuest_DoubleJump" : "%d次2连跳!",
+	"Kill_LiangChe" : "破坏%d辆粮车!",
+	"Kill_SharpBall" : "破坏%d个尖刺球!",
+	"Kill_FireBall" : "击杀%d个飞行火焰!",
+	"Kill_SpearSoldier" : "击杀%d个长矛兵!",
+	"Kill_ShieldSoldier" : "击杀%d个盾牌兵!",
+	"Kill_Block" : "破坏%d个栅栏!",
+	"Kill_Spiling" : "击杀%d个飞行木桩!"
+}
