@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer">
+      <UniqueIdentifier>{c00c3d0e-0192-4d69-9683-88573838f791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects">
+      <UniqueIdentifier>{509ab098-6796-42fa-8295-73172c83cd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameScene">
+      <UniqueIdentifier>{96c53b70-914f-49bf-a28f-9a2e2a3e2135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameData">
+      <UniqueIdentifier>{6bf5611a-3d70-4566-b8a5-bd3b236e06cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer\Other">
+      <UniqueIdentifier>{6f0b23cd-bcca-4b4d-adf3-f787f3b09831}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameStartLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Brid.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pipline.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Ball.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAudio.cpp">
+      <Filter>src\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameData.cpp">
+      <Filter>src\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePauseLayer.cpp">
+      <Filter>src\GameLayer\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BlinkTitle.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameStartLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Brid.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pipline.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Ball.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAudio.h">
+      <Filter>src\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAudioFile.h">
+      <Filter>src\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>src\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePauseLayer.h">
+      <Filter>src\GameLayer\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BlinkTitle.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\GameObjects.plist">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\GameObjects.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\introuction_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\exit_select.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\introuction_selected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\start_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\start_selected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\try_again_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\try_again_selected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\exit_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
