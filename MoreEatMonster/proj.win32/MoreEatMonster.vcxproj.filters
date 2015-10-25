@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameData">
+      <UniqueIdentifier>{e69fc57d-8895-4ce2-8002-43d992615461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer">
+      <UniqueIdentifier>{fc54cf2d-59d6-4430-8b79-6193f5b30151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\GameUI">
+      <UniqueIdentifier>{52b3a335-98e5-46eb-853d-37435fd08d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameScene">
+      <UniqueIdentifier>{2e1a6954-59f4-46fd-b7c6-0fef4e2ffce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameShop">
+      <UniqueIdentifier>{bc5ca331-55fa-4b01-a789-c6d2c7592f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameScrollView">
+      <UniqueIdentifier>{143076a0-a608-41b2-bd52-c355e1d7b139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects">
+      <UniqueIdentifier>{f2795a42-7448-4f8a-ae1e-f261af88032b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameStartLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameData.cpp">
+      <Filter>src\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameStartScene.cpp">
+      <Filter>src\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePauseLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>src\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShopLayer.cpp">
+      <Filter>src\GameShop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameRebornLayer.cpp">
+      <Filter>src\GameShop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScrollView.cpp">
+      <Filter>src\GameScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Ball.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Border.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameStartLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>src\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameStartScene.h">
+      <Filter>src\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePauseLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>src\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShopLayer.h">
+      <Filter>src\GameShop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameRebornLayer.h">
+      <Filter>src\GameShop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScrollView.h">
+      <Filter>src\GameScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Ball.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Border.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\backgrond\anniu_kaishi.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\anniu_sc.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\anniu_shengyin1.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\anniu_shengyin2.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\beijing.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\biaoti.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\fh_shuzi.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\backgrond\js_lishi.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\anniu_zt.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\yx_defen.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\yx_shuzi.png">
+      <Filter>resource\GameUI</Filter>
+    </Image>
+    <Image Include="..\Resources\Monster.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Monster.plist">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>
